@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "veracity2-baf78",
+    "staging": "veracity2-baf78"
+  },
+  "targets": {},
+  "etags": {}
+}

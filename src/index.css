@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    background-color: #f5f0f0;
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add this to your CSS or styling file */
+.rating-shape {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+  }
+  
+  .green-circle {
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  .blue-rectangle {
+    background-color: blue;
+  }
+  
+  .yellow-rhombus {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 4px;
+    border-color: transparent transparent yellow transparent;
+  }
+  
+  .orange-pentagon {
+    clip-path: polygon(50% 0%, 100% 34%, 82% 100%, 18% 100%, 0% 34%);
+    background-color: orange;
+  }
+  
+  .red-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 0;
+    border-color: red transparent transparent transparent;
+  }
+  
+  
